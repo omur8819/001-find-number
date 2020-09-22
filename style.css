@@ -1,35 +1,30 @@
 body {
-  text-align: center;
-  margin: 10px;
-  background-image: url("./img/bgrd.png.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #8d6525;
+    background-image: url("https://www.funbrain.com/assets/img/content-cards/F2qRmLhRnmebc8jJAUjr_GuessTheNumber%403x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
 }
+
 h1 {
-  text-align: center;
-  color: #000;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  font-weight: bold;
+    margin: 60px 0;
+    font: 32px 'Times New Roman', Times, serif; 
+    font-weight: bold;
 }
-p, label, div {
-  font-size: 20px;
+
+h2 {
+    margin: 20px;
+    font: 24px 'Times New Roman', Times, serif; 
+    font-weight: bold;
 }
-@media (max-width: 600px) {
-  h1 {
-    visibility: hidden;
-  }
-  main {
-    position: absolute;
-    display: block;
-    justify-content: center;
-    vertical-align: middle;
-    align-content: center;
-    top: 79px;
-  }
-  
-  #guessField {
-    width: 100px;
-  }
+
+@media only screen and (max-width: 425px) {
+    body {
+        background-repeat: repeat; 
+    }
+
+    h1 {
+        font-size: 24px; 
+        margin: 40px 0 160px;
+    }
+   
 }
