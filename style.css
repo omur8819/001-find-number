@@ -7,14 +7,30 @@ body {
 
 h1 {
     margin: 60px 0;
-    font: 32px 'Times New Roman', Times, serif; 
+    font: 40px 'Times New Roman', Times, serif; 
     font-weight: bold;
+    text-shadow: 10px 20px 30px black;
+    color: orangered;
 }
 
 h2 {
     margin: 20px;
     font: 24px 'Times New Roman', Times, serif; 
     font-weight: bold;
+}
+#guess{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 10px;
+
+}
+#check{
+    height: 36px;
+    width: 80px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 425px) {
