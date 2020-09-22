@@ -12,13 +12,16 @@ document.getElementById("check").addEventListener(
         if (findNum == ""){
             document.getElementById("answer").innerHTML = "Write a number?";
             document.getElementById("counter").innerHTML = "This is your test number:" + counter;
-        } else if (isNaN(findNum)) {
+        } 
+        else if (isNaN(findNum)) {
             document.getElementById("answer").innerHTML = "Are you sure that this is a number?";
             document.getElementById("counter").innerHTML = "This is your test number:" + counter;
-        } else if (findNum < myNum){
+        } 
+        else if (findNum < myNum){
             document.getElementById("answer").innerHTML = "I am thinking about higher number";
             document.getElementById("counter").innerHTML = "This is your test number:" + counter;
-        } else if (findNum > myNum) {
+        } 
+        else if (findNum > myNum) {
             document.getElementById("answer").innerHTML = "I am thinking about lower number";
             document.getElementById("counter").innerHTML = "This is your test number:" + counter;
         }
