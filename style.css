@@ -1,0 +1,35 @@
+body {
+  text-align: center;
+  margin: 10px;
+  background-image: url("./img/bgrd.png.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #8d6525;
+}
+h1 {
+  text-align: center;
+  color: #000;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+p, label, div {
+  font-size: 20px;
+}
+@media (max-width: 600px) {
+  h1 {
+    visibility: hidden;
+  }
+  main {
+    position: absolute;
+    display: block;
+    justify-content: center;
+    vertical-align: middle;
+    align-content: center;
+    top: 79px;
+  }
+  
+  #guessField {
+    width: 100px;
+  }
+}
