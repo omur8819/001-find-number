@@ -5,20 +5,20 @@ document.getElementById("check").addEventListener(
     const myNum = Math.floor(Math.random() * 101);
     
     function checkNumber(){
-        let guessNum = document.getElementById("guess").value;
+        let findNum = document.getElementById("guess").value;
         counter += 1;
 
         
-        if (guessNum == ""){
+        if (findNum == ""){
             document.getElementById("answer").innerHTML = "Write a number?";
             document.getElementById("counter").innerHTML = "This is your test number:" + counter;
-        } else if (isNaN(guessNum)) {
+        } else if (isNaN(findNum)) {
             document.getElementById("answer").innerHTML = "Are you sure that this is a number?";
             document.getElementById("counter").innerHTML = "This is your test number:" + counter;
-        } else if (guessNum < myNum){
+        } else if (findNum < myNum){
             document.getElementById("answer").innerHTML = "I am thinking about higher number";
             document.getElementById("counter").innerHTML = "This is your test number:" + counter;
-        } else if (guessNum > myNum) {
+        } else if (findNum > myNum) {
             document.getElementById("answer").innerHTML = "I am thinking about lower number";
             document.getElementById("counter").innerHTML = "This is your test number:" + counter;
         }
