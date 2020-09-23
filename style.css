@@ -11,6 +11,7 @@ h1 {
     font-weight: bold;
     text-shadow: 10px 20px 30px black;
     color: orangered;
+    -webkit-text-stroke: 1px blue;
 }
 
 h2 {
